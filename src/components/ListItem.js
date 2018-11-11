@@ -24,7 +24,6 @@ class ListItem extends Component {
                         {library.description}
                     </Text>    
                 </CardSection>
-                
             );
         }
     }
@@ -54,6 +53,10 @@ const styles = {
     titleStyle: {
         fontSize: 18,
         paddingLeft: 15
+    },
+    descriptionStyle: {
+        paddingLeft: 10,
+        paddingRight: 10
     }
 };
 
