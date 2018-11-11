@@ -20,7 +20,7 @@ class LibraryList extends Component {
 }
 
 const mapStateTopProps = state => {
-    return { libraries: state.libraries }
+    return { libraries: state.libraries };
 };
 
 export default connect(mapStateTopProps)(LibraryList);
